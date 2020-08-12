@@ -1,0 +1,13 @@
+version: "3"
+services:
+  front:
+    image: node:12-slim
+    working_dir: "/var/www/app"
+    environment:
+      - HOST=0.0.0.0
+    ports:
+      - "4000:3000"
+    volumes:
+      - ./:/var/www/app
+    command: bash -c "node server.js"
+
