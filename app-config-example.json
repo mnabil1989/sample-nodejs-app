@@ -1,0 +1,16 @@
+{
+  "mysql": {
+    "host": "",	  
+    "user": "",
+    "password": "",
+    "database": "",
+    "port": ""
+  },
+  
+  "mongo": {
+    "username":"",
+    "password":"",
+    "server":"",
+    "port":""
+  }
+}

@@ -6,7 +6,7 @@ services:
     environment:
       - HOST=0.0.0.0
     ports:
-      - "4000:3000"
+      - "80:3000"
     volumes:
       - ./:/var/www/app
     command: bash -c "node server.js"
